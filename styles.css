@@ -1,0 +1,23 @@
+body {
+    margin-left: 2em;
+    margin-right: 2em; 
+}
+
+.header {
+    background-color: aquamarine;
+    display: flex;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 93vw;
+    justify-content: space-between;
+}
+
+.header ul {
+    display: flex;
+    align-self: flex-end;
+}
+
+.header li {
+    list-style: none;
+    margin: .5em;
+}
